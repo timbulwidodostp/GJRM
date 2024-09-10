@@ -1,0 +1,19 @@
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Generalised Joint Regression Models (Modelling) With Classic Bivariate Probit Use gjrm With (In) R Software
+install.packages("GJRM")
+library("GJRM")
+GJRM = read.csv("https://raw.githubusercontent.com/timbulwidodostp/GJRM/main/GJRM/GJRM.csv",sep = ";")
+# Estimation Generalised Joint Regression Models (Modelling) With Classic Bivariate Probit Use gjrm With (In) R Software
+fm <- log(gsp) ~ log(pcap) + log(pc) + log(emp) + unemp
+GJRM <- gjrm(list(y1 ~ x1 + x2 + x3, y2 ~ x1 + x2 + x3), data = GJRM, margins = c("probit", "probit"), model = "B")
+conv.check(GJRM)
+summary(GJRM)
+AIC(GJRM)
+BIC(GJRM)
+# Generalised Joint Regression Models (Modelling) With Classic Bivariate Probit Use gjrm With (In) R Software
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Finished
