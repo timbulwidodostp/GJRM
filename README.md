@@ -1,6 +1,8 @@
 # GJRM
 Generalised Joint Regression Models (Modelling) With Classic Bivariate Probit Use gjrm With (In) R Software
 
+https://www.youtube.com/watch?v=6UFtPbKWMwI
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
